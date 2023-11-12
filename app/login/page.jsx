@@ -42,7 +42,7 @@ function Login() {
               </label>
               <input
                 type="text"
-                placeholder="user name"
+                placeholder="user name use 'test'"
                 className="w-full input input-bordered"
                 onChange={(e) =>
                   setInput({ ...input, userInput: e.target.value })
@@ -55,7 +55,7 @@ function Login() {
               </label>
               <input
                 type="password"
-                placeholder="Enter Password"
+                placeholder="Enter Password use 'test'"
                 className="w-full input input-bordered"
                 onChange={(e) =>
                   setInput({ ...input, passInput: e.target.value })
